@@ -1,0 +1,41 @@
+- View:
+    style:
+      backgroundColor: black
+      width: 375
+      height: 812
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            fontSize: 16
+            color: rgb(228, 160, 27)
+          index: 6100
+      - TextInput:
+          id: bio
+          style:
+            fontSize: 16
+            backgroundColor: white
+            borderColor: rgb(228, 160, 27)
+            height: 250
+            width: 300
+            margin: 30
+            borderWidth: 3
+          index: 325
+          len: 174
+      - Button:
+          id: bio
+          style:
+            backgroundColor: rgb(228, 160, 27)
+            alignItems: center
+            justifyContent: center
+            width: 80
+            height: 30
+            borderRadius: 10
+          on_touch:
+            backgroundColor: rgb(249, 224, 159)
+          children:
+            - Text:
+                style:
+                  fontSize: 20
+                index: 9000

@@ -1,0 +1,6 @@
+How to use buttons
+    1. In place of typing enter in a text box
+    2. Using to enter for multiple text boxes
+    3. How does it interact with the back end C++
+
+Multiline text input with text wrapping

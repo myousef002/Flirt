@@ -1,0 +1,37 @@
+- View:
+    style:
+      height: 812
+      width: 375
+      justifyContent: center
+      alignItems: center
+      children:
+        - Text:
+            style:
+              color: rgb(228, 160, 27)
+              fontSize: 16px
+              marginBottom: 15px
+            index: 9050
+        - Picker:
+            id: imagePicker
+            style: 
+              margin: 15
+              backgroundColor: rgb(288, 160, 27)
+              color: white
+            index: [165, 180, 195, 310]
+            indexPos: 9035
+        - Button:
+            id: imageEditSelector
+            style:
+              backgroundColor: rgb(228, 160, 27)
+              alignItems: center
+              justifyContent: center
+              width: 80
+              height: 30
+              borderRadius: 10
+            on_touch:
+              backgroundColor: rgb(249, 224, 159)
+            children:
+              - Text:
+                  style:
+                    fontSize: 20
+                  index: 9030

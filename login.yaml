@@ -1,0 +1,41 @@
+- View:
+    style:
+      backgroundColor: black
+      width: 375
+      height: 812
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            fontSize: 16
+            font: system
+            color: rgb(228, 160, 27)
+          index: 6000
+      - TextInput:
+          id: login
+          style:
+            fontSize: 16
+            backgroundColor: white
+            borderColor: rgb(228, 160, 27)
+            height: 40
+            margin: 10
+            borderWidth: 3
+          index: 10
+          len: 20
+      - Button:
+          id: login
+          style:
+            backgroundColor: rgb(228, 160, 27)
+            alignItems: center
+            justifyContent: center
+            width: 80
+            height: 30
+            borderRadius: 10
+          on_touch:
+            backgroundColor: rgb(249, 224, 159)
+          children:
+            - Text:
+                style:
+                  fontSize: 20
+                index: 9000

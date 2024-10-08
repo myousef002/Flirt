@@ -1,0 +1,132 @@
+- View:
+    style:
+      backgroundColor: white
+      borderWidth: 3
+      borderColor: black
+      width: 375
+      height: 812
+      justifyContent: center
+      alignItems: center
+    children:
+      - View:
+          style:
+            width: 100%
+            height: 18%
+            backgroundColor: grey
+            flex-direction: row
+            alignItems: center
+            justifyContent: center
+          children:
+            - Text:
+                style:
+                  color: white
+                  fontSize: 30
+                index: {1}
+      - View:
+          style:
+            width: 100%
+            height: 18%
+            backgroundColor: white
+            flex-direction: row
+            alignItems: center
+            justifyContent: center
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 30
+                index: {2}
+      - View:
+          style:
+            width: 100%
+            height: 18%
+            backgroundColor: grey
+            flex-direction: row
+            alignItems: center
+            justifyContent: center
+          children:
+            - Text:
+                style:
+                  color: white
+                  fontSize: 30
+                index: {3}
+      - View:
+          style:
+            width: 100%
+            height: 18%
+            backgroundColor: white
+            flex-direction: row
+            alignItems: center
+            justifyContent: center
+          children:
+            - Text:
+                style:
+                  color: black
+                  fontSize: 30
+                index: {4}
+      - View:
+          style:
+            width: 100%
+            height: 18%
+            backgroundColor: grey
+            flex-direction: row
+            alignItems: center
+            justifyContent: center
+          children:
+            - Text:
+                style:
+                  color: white
+                  fontSize: 30
+                index: {5}
+      - View:
+          style:
+            width: 100%
+            height: 40
+            flex: 1
+            flexDirection: row
+            justifyContent: space-evenly
+            position: 'absolute'
+            bottom: 0
+          children:
+            - Button:
+                id: to_main_screen
+                style:
+                  width: 33%
+                  height: 100%
+                  alignItems: center
+                  backgroundColor: rgb(228, 160, 27)
+                  justifyContent: center
+                children:
+                  - Text:
+                      style:
+                        fontSize: 14
+                        color: white
+                      index: 9070
+            - Button:
+                id: matches
+                style:
+                  width: 33%
+                  height: 100%
+                  backgroundColor: rgb(249, 224, 159)
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Text:
+                      style:
+                        fontSize: 14
+                        color: white
+                      index: 9080
+            - Button:
+                id: myprofile
+                style:
+                  width: 33%
+                  height: 100%
+                  backgroundColor: rgb(228, 160, 27)
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Text:
+                      style:
+                        fontSize: 14
+                        color: white
+                      index: 9090

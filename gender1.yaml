@@ -1,0 +1,46 @@
+- View:
+    style:
+      backgroundColor: black
+      width: 375
+      height: 812
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            fontSize: 16px
+            color: rgb(228, 160, 27)
+            font: system
+          index: 6000
+      - Picker:
+          id: genderPicker
+          style:
+            margin: 15
+            borderColor: red
+            backgroundColor: rgb(288, 160, 27)
+            color: white
+          index: [7000,7010,7020,7030]
+          indexPos: 225
+      - Text:
+          style:
+            color: red
+            fontSize: 16px
+            font: system
+            margin: 15px
+          index: 7050
+      - Button:
+          id: genderb
+          style:
+            backgroundColor: rgb(228, 160, 27)
+            alignItems: center
+            justifyContent: center
+            width: 80
+            height: 30
+            borderRadius: 10
+          on_touch:
+            backgroundColor: rgb(249, 224, 159)
+          children:
+            - Text:
+                style:
+                  fontSize: 20
+                index: 9000

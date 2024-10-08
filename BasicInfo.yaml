@@ -1,0 +1,110 @@
+- View:
+    style:
+      backgroundColor: black
+      width: 375
+      height: 812
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            fontSize: 16
+            color: rgb(228, 160, 27)
+          index: 6000
+      - TextInput:
+          id: binfo
+          style:
+            fontSize: 16
+            backgroundColor: white
+            borderColor: rgb(228, 160, 27)
+            height: 40
+            margin: 15
+            borderWidth: 2
+          index: 100
+          len: 48
+
+      - Text:
+          style:
+            fontSize: 16
+            color: rgb(228, 160, 27)
+          index: 6020
+      - TextInput:
+          id: binfo
+          style:
+            fontSize: 16
+            backgroundColor: white
+            borderColor: rgb(228, 160, 27)
+            height: 40
+            margin: 15
+            borderWidth: 2
+          index: 150
+          len: 18
+
+      - Text:
+          style:
+            fontSize: 16
+            color: rgb(228, 160, 27)
+          index: 6040
+      - TextInput:
+          id: binfo
+          style:
+            fontSize: 16
+            backgroundColor: white
+            borderColor: rgb(228, 160, 27)
+            height: 40
+            margin: 15
+            borderWidth: 2
+          index: 170
+          len: 5
+
+      - Text:
+          style:
+            fontSize: 16
+            color: rgb(228, 160, 27)
+          index: 6060
+      - TextInput:
+          id: binfo
+          style:
+            fontSize: 16
+            backgroundColor: white
+            borderColor: rgb(228, 160, 27)
+            height: 40
+            margin: 15
+            borderWidth: 2
+          index: 175
+          len: 24
+
+      - Text:
+          style:
+            fontSize: 16
+            color: rgb(228, 160, 27)
+          index: 6080
+      - TextInput:
+          id: binfo
+          style:
+            fontSize: 16
+            backgroundColor: white
+            borderColor: rgb(228, 160, 27)
+            height: 40
+            margin: 15
+            borderWidth: 2
+          index: 200
+          len: 24
+      - Button:
+          id: basicInfo
+          style:
+            backgroundColor: rgb(228, 160, 27)
+            alignItems: center
+            justifyContent: center
+            width: 80
+            height: 30
+            borderRadius: 10
+          on_touch:
+            backgroundColor: rgb(249, 224, 159)
+          children:
+            - Text:
+                style:
+                  fontSize: 20
+                index: 9000
+
+          

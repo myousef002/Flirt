@@ -1,0 +1,149 @@
+- View:
+    style:
+      backgroundColor: white
+      borderWidth: 3
+      borderColor: black
+      width: 375
+      height: 812
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            position: 'absolute'
+            top: 40
+            fontFamily: Gill Sans
+            fontWeight: light
+            fontSize: 40
+            color: rgb(228, 160, 27)
+          index: 6000
+      - View:
+          style:
+            width: 97%
+            height: 45%
+          children:
+            - Image:
+                source: {main}
+                style:
+                  width: 100%
+                  height: 100%
+                  borderRadius: 15
+            - Text:
+                style:
+                  position: 'absolute'
+                  left: 10
+                  bottom: 10
+                  justifyContent: center
+                  alignItems: center
+                  fontFamily: Gill Sans
+                  fontWeight: light
+                  fontSize: 40
+                  color: white
+                index: 1100
+      - View:
+          style:
+            width: 100%
+            flex: 1
+            flexDirection: row
+            justifyContent: space-evenly
+            backgroundColor: white
+            position: 'absolute'
+            bottom: 120
+          children:
+            - Button:
+                id: to_main_screen
+                style:
+                  width: 65
+                  height: 65
+                  backgroundColor: tomato
+                  alignItems: center
+                  justifyContent: center
+                  borderRadius: 10
+                children:
+                  - Image:
+                      source: x.png
+                      style:
+                        height: 100%
+                        width: 100%
+            - Button:
+                id: info
+                style:
+                  width: 65
+                  height: 65
+                  backgroundColor: lightgrey
+                  alignItems: center
+                  justifyContent: center
+                  borderRadius: 10
+                children:
+                - Image:
+                    source: i.png
+                    style:
+                      height: 95%
+                      width: 95%
+            - Button:
+                id: like
+                style:
+                  width: 65
+                  height: 65
+                  backgroundColor: limegreen
+                  alignItems: center
+                  justifyContent: center
+                  borderRadius: 10
+                children:
+                  - Image:
+                      source: check.png
+                      style:
+                        height: 100%
+                        width: 100%
+      - View:
+          style:
+            width: 100%
+            height: 40
+            flex: 1
+            flexDirection: row
+            justifyContent: space-evenly
+            position: 'absolute'
+            bottom: 0
+          children:
+            - Button:
+                id: to_main_screen
+                style:
+                  width: 33%
+                  height: 100%
+                  alignItems: center
+                  backgroundColor: rgb(249, 224, 159)
+                  justifyContent: center
+                children:
+                  - Text:
+                      style:
+                        fontSize: 14
+                        color: white
+                      index: 9070
+            - Button:
+                id: matches
+                style:
+                  width: 33%
+                  height: 100%
+                  backgroundColor: rgb(228,160,27)
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Text:
+                      style:
+                        fontSize: 14
+                        color: white
+                      index: 9080
+            - Button:
+                id: myprofile
+                style:
+                  width: 33%
+                  height: 100%
+                  backgroundColor: rgb(228, 160, 27)
+                  alignItems: center
+                  justifyContent: center
+                children:
+                  - Text:
+                      style:
+                        fontSize: 14
+                        color: white
+                      index: 9090

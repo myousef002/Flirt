@@ -1,0 +1,38 @@
+- View:
+    style:
+      backgroundColor: black
+      width: 375
+      height: 812
+      justifyContent: center
+      alignItems: center
+    children:
+      - Text:
+          style:
+            fontSize: 16px
+            color: rgb(228, 160, 27)
+            font: system
+          index: 6000
+      - Picker:
+          id: orientation
+          style:
+            margin: 15
+            backgroundColor: rgb(288, 160, 27)
+            color: white
+          index: [7000,7010,7023, 7030,7040]
+          indexPos: 240
+      - Button:
+          id: orientationb
+          style:
+            backgroundColor: rgb(228, 160, 27)
+            alignItems: center
+            justifyContent: center
+            width: 80
+            height: 30
+            borderRadius: 10
+          on_touch:
+            backgroundColor: rgb(249, 224, 159)
+          children:
+            - Text:
+                style:
+                  fontSize: 20
+                index: 9000
